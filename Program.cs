@@ -8,12 +8,15 @@ namespace Assignment1_F19
         {
             int a = 1, b = 22;
             printSelfDividingNumbers(a, b);
+            Console.WriteLine();
 
             int n2 = 5;
             printSeries(n2);
+            Console.WriteLine();
 
             int n3 = 5;
             printTriangle(n3);
+            Console.WriteLine();
 
             int[] J = new int[] { 1, 3 };
             int[] S = new int[] { 1, 3, 3, 2, 2, 2, 2, 2 };
@@ -52,7 +55,7 @@ namespace Assignment1_F19
                         }
                         if (SelfDividing == 1)
                         {
-                            Console.WriteLine(num);
+                            Console.Write("{0},",num);
                         }
                     }
                 }
